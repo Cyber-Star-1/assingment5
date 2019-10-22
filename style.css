@@ -1,0 +1,60 @@
+.header{
+  width: 80%;
+  margin: 0 auto;
+  height: 120px;
+  background-color: purple;
+  
+}
+.user{
+  float: right;
+  font-size: 25px;
+  color: white;
+  margin-right: 1rem;
+  margin-top: 40px;
+}
+.row{
+  width: 80%;
+  margin: 0 auto;
+}
+.row::after{
+  clear: both;
+}
+.col-1:first-child{
+  margin-right: 4%;
+}
+.col-1{
+  width: 60%;
+  float: left;
+}
+.container{
+  border: 2px solid #777;
+  padding: 2rem;
+
+}
+.login{
+  padding: 1rem;
+  background-color: #00ff00;
+}
+button{
+  display: block;
+  width: 100%;
+  margin: 1.5rem auto;
+  padding: 5px;
+  font-size: 18px;
+}
+.cont{
+  width: 100%;
+  text-align: center;
+  margin: 3rem auto;
+}
+.col-2{
+  width: 35%;
+  float: right;
+}
+body{
+  background-color: #e0e0e0;
+}
+.red{
+  background-color: red;
+  padding: 1rem;
+}
